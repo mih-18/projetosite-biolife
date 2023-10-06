@@ -1,0 +1,223 @@
+/*CSS DA PÁGINA INICIAL*/
+body{
+    background-color: rgba(139, 66, 17, 0.705);
+}
+
+h1 {
+font-size: 50px;
+}
+
+header{
+    background-color: green;
+}
+
+nav li{
+    display:inline;
+    margin-right:19px;
+}
+
+nav a:hover {
+       color: rgb(141, 129, 129);
+       text-decoration:underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(4, 61, 4);
+    font-weight: bold;
+    font-size: 42.5px;
+    text-decoration: none;
+}
+
+nav{
+    position:absolute;
+    top: 100px;
+    right: 10px;
+}
+
+.caixa{
+    position:relative;
+    margin-top:0px auto;
+
+}
+
+.logo{
+    width: 12%;
+    border-color: aquamarine;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 30px;
+    width: 200px;
+}
+
+header {
+    background-color: rgb(150, 212, 142);
+}
+
+ul{
+    margin-left: 25px;
+    font-style:normal;
+    font-size: 30px;
+    color: black;
+
+}
+
+/*CSS DOS SERVIÇOS*/
+
+.servicos {
+    width: 1440;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid rgb(141, 129, 129);
+    border-radius: 10px;
+
+}
+
+.servicos li:hover{
+    border-color: red; 
+}
+
+.servicos li:hover h2{
+font-size: 34px;
+color: red;
+}
+
+.servicos li:active {
+    border-color: rgb(36, 36, 109);
+    border-width: 4px;
+}
+
+.servicos img{
+    width: 330px;
+    height: 200px;
+}
+
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+text-align: center;
+}
+
+.rodape{
+background-color: rgb(141, 129, 129);
+padding: 40px;
+}
+
+footer img {
+width: 10%;
+}
+
+.copyright {
+font-size: 70px;
+margin: 20px 0;
+}
+
+/*CONTATO*/
+main {
+   width: 940px;
+   margin: 0 auto; 
+}
+
+form {
+ margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.input padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 30px;
+    width: 30%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+     width: 40%;
+     padding: 15px 0;
+     background: aquamarine;
+     color: black;
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+     border-radius: 5px;
+     transition: 1s all;
+     cursor: pointer;
+}
+
+.enviar:hover {
+background: rgb(141, 129, 129);
+transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: rgb(141, 129, 129);
+    color: black;
+    font-weight: bold;
+
+}
+
+td, th{
+    border: 1px solid rgb(36, 36, 109);
+    padding: 8px 15px;
+
+}
+
+/*CSS DA PÁGINA INICIAL*/
+
+.titulo-principal{
+    text-align: center;
+    font-size: 4em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.imagem{
+    background-color: rgb(141, 129, 129);
+    width: 120%;
+}
+
+.texto p, .contato p{
+ margin: 0 0 1em;
+}
+
+.imagem-principal{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
