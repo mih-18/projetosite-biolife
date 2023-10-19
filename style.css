@@ -3,6 +3,14 @@ body{
     background-color: rgba(139, 66, 17, 0.705);
 }
 
+.contato li {
+    font-size: 50px;
+}
+
+.contato {
+    text-align: center;
+}
+
 h1 {
 font-size: 50px;
 }
@@ -43,7 +51,7 @@ nav{
 
 .logo{
     width: 12%;
-    border-color: aquamarine;
+    border-color: #7fffd4;
     border-radius: 10px;
     border-style: groove;
     border-width: 30px;
@@ -61,70 +69,40 @@ ul{
     color: black;
 
 }
+    .titulo-principal{
+        text-align: center;
+        font-size: 4em;
+        margin: 0 0 1em;
+        clear: left;
+    }
+    
+    .imagem{
+        background-color: rgb(141, 129, 129);
+        width: 120%;
+    }
+    
+    .texto p, .contato p{
+     margin: 3 3 1em;
+    }
+    
+    .imagem-principal{
+        width: 900px;
+        margin: 0 20px 20px 0;
+    }
+    
+    .banner{
+        font-size: 40px;
+    }
 
-/*CSS DOS SERVIÇOS*/
-
-.servicos {
-    width: 1440;
-    margin: 0 auto;
-    padding: 50px 0;
-
-}
-.servicos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 0px;
-    box-sizing: border-box;
-    border: 2px solid rgb(141, 129, 129);
-    border-radius: 10px;
-
-}
-
-.servicos li:hover{
-    border-color: red; 
-}
-
-.servicos li:hover h2{
-font-size: 34px;
-color: red;
-}
-
-.servicos li:active {
-    border-color: rgb(36, 36, 109);
-    border-width: 4px;
-}
-
-.servicos img{
-    width: 330px;
-    height: 200px;
-}
-
-.servicos h2{
-    font-size: 30px;
-    font-weight: bold;
-    padding-bottom: 15px;
-}
-
-.descricao{
-    font-size: 18px;
-}
-
-.preco{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
+/*AQUI COMEÇA O FOOTER*/
 footer {
 text-align: center;
 }
 
 .rodape{
-background-color: rgb(141, 129, 129);
-padding: 40px;
+background-color: rgb(141, 133, 133);
+padding: 24px;
+width: 100%;
 }
 
 footer img {
@@ -198,26 +176,8 @@ td, th{
 
 }
 
-/*CSS DA PÁGINA INICIAL*/
-
-.titulo-principal{
-    text-align: center;
-    font-size: 4em;
-    margin: 0 0 1em;
-    clear: left;
-}
-
-.imagem{
-    background-color: rgb(141, 129, 129);
-    width: 120%;
-}
-
-.texto p, .contato p{
- margin: 0 0 1em;
-}
-
-.imagem-principal{
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
+/*AQUI COMEÇA A EDIÇÃO DA GALERIA*/
+.imagens-animais {
+    width: 30%;
+    border-radius: 100%;
 }
