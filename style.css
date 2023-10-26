@@ -9,10 +9,23 @@ body{
 
 .contato {
     text-align: center;
+    margin-bottom: 5%;
 }
 
-h1 {
+h3 {
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+h4{
 font-size: 50px;
+display: inline-block;
+position: absolute;
+top: 120px;
+left: 300px;
 }
 
 header{
@@ -57,7 +70,11 @@ nav{
     border-width: 30px;
     width: 200px;
 }
+.banner1{
+   width: 100%;
+   padding: 5%;
 
+}
 header {
     background-color: rgb(150, 212, 142);
 }
@@ -90,8 +107,9 @@ ul{
         margin: 0 20px 20px 0;
     }
     
-    .banner{
+    .banner2{
         font-size: 40px;
+        margin-bottom: 5%;
     }
 
 /*AQUI COMEÇA O FOOTER*/
@@ -176,8 +194,118 @@ td, th{
 
 }
 
+h3 {
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+h4{
+font-size: 50px;
+display: inline-block;
+position: absolute;
+top: 120px;
+left: 300px;
+}
+
 /*AQUI COMEÇA A EDIÇÃO DA GALERIA*/
 .imagens-animais {
-    width: 30%;
+    width: 100px;
     border-radius: 100%;
+    display: inline-block;
+    align-items: center;
 }
+
+h2{
+    font-size: 80px;
+    background: darkcyan;
+}
+
+p{
+    font-size: 40px;
+}
+
+ul{
+    margin-left: 25px;
+    font-style:normal;
+    color: rgb(36, 36, 109);
+}
+
+.fotos-animais {
+    width: 1440;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.fotos-animais li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid rgb(141, 129, 129);
+    border-radius: 10px;
+}
+
+.fotos-animais li:hover{
+    border-color: black; 
+}
+
+.fotos-animais li:hover h2{
+font-size: 34px;
+color: black;
+}
+
+.fotos-animais li:active {
+    border-color: rgb(36, 36, 109);
+    border-width: 4px;
+}
+
+.fotos-animais img{
+    width: 330px;
+    height: 200px;
+}
+
+.fotos-animais h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+h4{
+font-size: 50px;
+display: inline-block;
+position: absolute;
+top: 120px;
+left: 300px;
+}
+
+/*AQUI COMEÇAM AS MATÉRIAS*/
+.materia {
+align-items: center;
+margin-bottom: 0;
+top: 5%;
+position: absolute;
+}
+
+
+    
+    
+
+
