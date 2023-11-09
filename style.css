@@ -44,9 +44,9 @@ nav a:hover {
 
 nav a{
     text-transform: uppercase;
-    color: rgb(4, 61, 4);
+    color: black;
     font-weight: bold;
-    font-size: 42.5px;
+    font-size: 26.5px;
     text-decoration: none;
 }
 
@@ -77,10 +77,12 @@ nav{
 }
 header {
     background-color: rgb(150, 212, 142);
+
 }
 
-ul{
+.navegação{
     margin-left: 25px;
+    margin-top: 100px;
     font-style:normal;
     font-size: 30px;
     color: black;
@@ -117,14 +119,18 @@ footer {
 text-align: center;
 }
 
+.rodapécréditos{
+background-color: rgb(141, 133, 133);
+padding: 24px;
+width: 100%;
+position: absolute;
+bottom: 0;
+}
+
 .rodape{
 background-color: rgb(141, 133, 133);
 padding: 24px;
 width: 100%;
-}
-
-footer img {
-width: 10%;
 }
 
 .copyright {
@@ -247,8 +253,14 @@ ul{
     margin: 0 1.5%;
     padding: 30px 0px;
     box-sizing: border-box;
-    border: 2px solid rgb(141, 129, 129);
+    border: 2px solid black;
     border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(36, 36, 109);
+    background-color: darkcyan;;
 }
 
 .fotos-animais li:hover{
@@ -296,17 +308,44 @@ top: 120px;
 left: 300px;
 }
 
-/*AQUI COMEÇAM AS MATÉRIAS*/
+/*AQUI COMEÇA A EDIÇÃO DAS MATÉRIAS*/
 .materia {
 display: inline-block;
 text-align: center;
 width: 30%;
 vertical-align: top;
-margin: 0 1.5%;
+margin: 0 30.5%;
 padding: 30px 0px;
 }
 
+/*AQUI COMEÇA A EDIÇÃO DOS CRÉDITOS*/
+.créditos{
+font-size: 50px;
+text-align: center;
+margin-top: 100px;
+}
 
+/*AQUI COMEÇA A EDIÇÃO DA PÁGINA DE MAMÍFEROS*/
+.foto-baleia{
+width: 40%;
+margin-top: 70px;
+background-color: rgba(139, 66, 17, 0.705);
+
+}
+
+/*AQUI COMEÇA A EDIÇÃO DA PÁGINA DE PÁSSAROS*/
+.foto-tucano{
+width: 40%;
+margin-top: 70px;
+background-color: rgba(139, 66, 17, 0.705);
+}
+
+/*AQUI COMEÇA A EDIÇÃO DA PÁGINA DE RÉPTEIS*/
+.foto-iguana{
+width: 40%;
+margin-top: 70px;
+background-color: rgba(139, 66, 17, 0.705);
+}
     
     
 
