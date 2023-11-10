@@ -1,4 +1,4 @@
-/*CSS DA PÁGINA INICIAL*/
+/*AQUI COMEÇA A EDIÇÃO DO CSS DA PÁGINA INICIAL*/
 body{
     background-color: rgba(139, 66, 17, 0.705);
 }
@@ -26,10 +26,6 @@ display: inline-block;
 position: absolute;
 top: 120px;
 left: 300px;
-}
-
-header{
-    background-color: green;
 }
 
 nav li{
@@ -70,6 +66,14 @@ nav{
     border-width: 30px;
     width: 200px;
 }
+
+.enfeite-estrela{
+width: 500px;
+position: absolute;
+left: 20px;
+margin-top: 120px;
+}
+
 .banner1{
    width: 100%;
    padding: 5%;
@@ -77,7 +81,6 @@ nav{
 }
 header {
     background-color: rgb(150, 212, 142);
-
 }
 
 .navegação{
@@ -106,15 +109,23 @@ header {
     
     .imagem-principal{
         width: 900px;
-        margin: 0 20px 20px 0;
+        margin: 100 20px 20px 0;
     }
     
     .banner2{
         font-size: 40px;
-        margin-bottom: 5%;
+        margin-bottom: 50px;
+        width: 900px;
+        background-color: darkcyan;
     }
 
-/*AQUI COMEÇA O FOOTER*/
+    .texto-banner2{
+        width: 100%;
+        margin-right: 5px;
+        text-align: left;
+    }
+
+/*AQUI COMEÇA A EDIÇÃO DO CSS DO FOOTER*/
 footer {
 text-align: center;
 }
@@ -138,10 +149,16 @@ font-size: 70px;
 margin: 20px 0;
 }
 
-/*CONTATO*/
+/*AQUI COMEÇA A EDIÇÃO DO CSS DO CONTATO*/
 main {
    width: 940px;
    margin: 0 auto; 
+}
+
+.enfeite-aumizades{
+width: 500px;
+position: absolute;
+right: 100px;
 }
 
 form {
@@ -325,26 +342,60 @@ text-align: center;
 margin-top: 100px;
 }
 
+/*AQUI COMEÇA A EDIÇÃO DA PÁGINA DO INSTAGRAM*/
+.foto-instagram{
+display: inline-block;
+text-align: center;
+width: 500px;
+vertical-align: top;
+margin: 0 34.5%;
+padding: 30px 0px;
+}
+
 /*AQUI COMEÇA A EDIÇÃO DA PÁGINA DE MAMÍFEROS*/
 .foto-baleia{
-width: 40%;
-margin-top: 70px;
-background-color: rgba(139, 66, 17, 0.705);
+width: 35%;
+margin-top: 20px;
+position: absolute;
+left: 30px;
+}
 
+.parágrafo-baleia{
+width: 900px;
+font-size: 35px;
+margin-left: 250px;
+margin-top: 150px;
+vertical-align: top;
+display: inline-block;
 }
 
 /*AQUI COMEÇA A EDIÇÃO DA PÁGINA DE PÁSSAROS*/
 .foto-tucano{
-width: 40%;
+width: 80%;
 margin-top: 70px;
-background-color: rgba(139, 66, 17, 0.705);
+}
+
+.parágrafo-tucano{
+width: 900px;
+font-size: 35px;
+margin-right: 20px;
+display: inline-block;
 }
 
 /*AQUI COMEÇA A EDIÇÃO DA PÁGINA DE RÉPTEIS*/
 .foto-iguana{
-width: 40%;
+width: 80%;
 margin-top: 70px;
 background-color: rgba(139, 66, 17, 0.705);
+}
+
+.parágrafo-réptil{
+width: 900px;
+font-size: 35px;
+margin-right: 20px;
+margin-top: 70px;
+vertical-align: top;
+display: inline-block;
 }
     
     
