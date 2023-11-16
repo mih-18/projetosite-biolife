@@ -1,3 +1,4 @@
+//AQUI COMEÇA O ARMAZENAMENTO DOS DADOS/
 let botao = document.querySelector(".btn");
 
 botao.addEventListener("click", function(event){
